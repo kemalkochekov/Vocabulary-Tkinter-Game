@@ -1,7 +1,7 @@
 # Vocabulary-Tkinter-Game
 This Vocabulary app helps you memorize words using Python's Tkinter Library (https://docs.python.org/3/library/tkinter.html) and Python Pygame Library (https://www.pygame.org/news)
 
-###Requirments
+### Requirments
 ```
 - Python 3.x
 - Pillow
