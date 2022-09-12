@@ -4,15 +4,13 @@ import pygame
 
 root = Tk()
 root.title("English Word Quiz")
-root.iconbitmap('@/home/kk/Documents/python/Tkinter/Vocabulary Game/sample_1.xbm')
-
 ##Sound
 pygame.mixer.init()
-pygame.mixer.music.load("/home/kk/Documents/python/Tkinter/Vocabulary Game/Sneaky-Snitch.mp3")
+pygame.mixer.music.load("Sneaky-Snitch.mp3")
 pygame.mixer.music.play(loops=10)
 
 #opening sample txt file and creating new dictionary
-f=open("/home/kk/Documents/python/Tkinter/Vocabulary Game/sample.txt","r")
+f=open("sample.txt","r")
 data=f.readlines()
 word_Count=len(data)
 words_list=[]
