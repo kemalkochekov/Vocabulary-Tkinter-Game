@@ -12,5 +12,5 @@ This Vocabulary app helps you memorize words using Python's Tkinter Library (htt
 ### How to use it? 
 Input your words into data.txt with a single dash separated form of original word and description and run app.py with the following command.
 ```
-$ python3 app.py
+$ python3 Vocabulary Game Main.py
 ```
